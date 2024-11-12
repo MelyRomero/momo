@@ -1,0 +1,74 @@
+/* Fondo degradado de la página */
+body {
+    background: linear-gradient(135deg, #4b79a1, #283e51);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Estilos del contenedor */
+.container {
+    width: 90%; /* Cambiado para ocupar más espacio */
+    max-width: 1200px; /* Ajustado para que sea lo suficientemente ancho */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Título de la lista */
+.title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+/* Estilos del contenedor de cuadrícula */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajustado para adaptarse mejor */
+    gap: 15px; /* Espaciado entre tarjetas */
+}
+
+/* Diseño de las tarjetas */
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-header {
+    font-size: 1.2em;
+    color: #34495e;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+/* Contenido de cada dato */
+.card-content {
+    font-size: 1em;
+    color: #555;
+}
+
+.card-content div {
+    margin-bottom: 8px;
+}
+
+/* Texto en negrita */
+.bold {
+    font-weight: bold;
+}
