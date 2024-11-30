@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/meme/static/css/main.9a5c6096.css",
-    "main.js": "/meme/static/js/main.3392c3a2.js",
-    "static/js/453.08d657c9.chunk.js": "/meme/static/js/453.08d657c9.chunk.js",
-    "static/media/logo.svg": "/meme/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/meme/index.html",
-    "main.9a5c6096.css.map": "/meme/static/css/main.9a5c6096.css.map",
-    "main.3392c3a2.js.map": "/meme/static/js/main.3392c3a2.js.map",
-    "453.08d657c9.chunk.js.map": "/meme/static/js/453.08d657c9.chunk.js.map"
+    "main.css": "/momo/static/css/main.9a5c6096.css",
+    "main.js": "/momo/static/js/main.a4db4072.js",
+    "static/js/453.08d657c9.chunk.js": "/momo/static/js/453.08d657c9.chunk.js",
+    "static/media/logo.svg": "/momo/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/momo/index.html",
+    "main.9a5c6096.css.map": "/momo/static/css/main.9a5c6096.css.map",
+    "main.a4db4072.js.map": "/momo/static/js/main.a4db4072.js.map",
+    "453.08d657c9.chunk.js.map": "/momo/static/js/453.08d657c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a5c6096.css",
-    "static/js/main.3392c3a2.js"
+    "static/js/main.a4db4072.js"
   ]
 }
