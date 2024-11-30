@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import GraficoClientes from './GraficoClientes'; // Importa el gráfico aquí
+import GraficoClientes from './GraficoClientes';
+import GraficoAlumnos from './GraficoAlumnos'; // Importa el nuevo componente
 
 const ListaClientes = () => {
     const [clientes, setClientes] = useState([]);
@@ -44,10 +45,13 @@ const ListaClientes = () => {
                     </div>
                 ))}
             </div>
-            
-            {/* Agrega el gráfico aquí */}
+
+            {/* Gráfico de Clientes */}
             <h2 className="text-center mt-5">Gráfico de IDs de Clientes</h2>
-            <GraficoClientes data={clientes} /> {/* Pasa los datos de clientes al gráfico */}
+            <GraficoClientes data={clientes} />
+
+            {/* Gráfico de Alumnos */}
+            <GraficoAlumnos />
         </div>
     );
 };
