@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import GraficoClientes from './GraficoClientes';
-import GraficoAlumnos from './GraficoAlumnos'; // Importa el nuevo componente
+import GraficoAlumnos from './GraficoAlumnos';
+
 
 const ListaClientes = () => {
     const [clientes, setClientes] = useState([]);
